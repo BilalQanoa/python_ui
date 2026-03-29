@@ -48,3 +48,72 @@ header div div button {
     text-align: center;
     color: #fff;
 }
+
+.hero nav{
+    margin: 1rem 5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #407AAB;
+    border-radius: 1rem;
+    box-shadow: 2px 2px #000;
+}
+
+.hero nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    background-color: #407AAB;
+}
+
+.hero div{
+    margin: 1rem 4rem;
+    display: flex;
+}
+
+
+.links{
+    flex:1.5;
+}
+
+.links li {
+    text-align: center;
+    padding: 0.4rem 0;
+}
+
+.links li a {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    content: ">>";
+    color: #FFD343;
+    font-size: .6rem;
+    margin-right: 8px;
+}
+
+
+
+.description{
+    flex:3;
+    display: flex;
+    flex-direction: column;
+}
+
+.white-p{
+    color: #fff;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.yellow-p{
+    color: #FFD343;
+    padding: 0.6rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
