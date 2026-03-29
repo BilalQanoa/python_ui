@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     background-color: #265175;
 }
 
@@ -47,6 +50,7 @@ header div div button {
     padding: .5rem;
     text-align: center;
     color: #fff;
+    background-color: #265175;
 }
 
 .hero nav{
@@ -79,6 +83,14 @@ header div div button {
 .links li {
     text-align: center;
     padding: 0.4rem 0;
+    list-style: none;
+}
+
+.links li::before {
+    content: ">>";
+    color: #FFD343;
+    font-size: .6rem;
+    margin-right: 8px;
 }
 
 .links li a {
@@ -86,16 +98,8 @@ header div div button {
     font-size: 1.4rem;
 }
 
-li {
-    list-style: none;
-}
 
-li::before {
-    content: ">>";
-    color: #FFD343;
-    font-size: .6rem;
-    margin-right: 8px;
-}
+
 
 
 
@@ -116,4 +120,49 @@ li::before {
     padding: 0.6rem 0;
     text-align: center;
     font-size: 1.5rem;
+}
+
+main{
+    background-color: #fff;
+    display: flex;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+main div {
+    flex: 1;
+    text-align: center;
+    border-top: 5px solid #407AAB;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 0;
+}
+
+main div h2 {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+
+main div p {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+    text-align: center;
+}
+
+main div p span{
+    color: #75A8D3;
+}
+
+main div ul {
+    padding: 0 4rem;
+    list-style-type: square;
+    font-size: 1.2rem;
+    color: #75A8D3;
+}
+main div ul li {
+    padding: 0.2rem 0;
+}
+main div ul li::marker{
+    color: black;
 }
