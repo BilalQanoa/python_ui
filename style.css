@@ -166,3 +166,24 @@ main div ul li {
 main div ul li::marker{
     color: black;
 }
+
+footer {
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+}
+
+footer div p {
+    color: #75A8D3;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+footer p {
+    color: #75A8D3;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
