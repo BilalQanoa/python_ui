@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #265175;
+}
+
+header{
+    padding: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 24rem;
+}
+
+header div p {
+    color: #fff;
+    font-size: 1rem;
+    text-align: end;
+    padding-right: 2rem;
+    padding-bottom: 0.4rem;
+}
+
+header div p a {
+    color: #FFD343;
+}
+
+header div p span {
+    color: #000;
+}
+
+header div div {
+    background-color: #444444;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+header div div input{
+    background-color: #fff;
+    padding: .5rem;
+    text-align: center;
+}
+
+header div div button {
+    padding: .5rem;
+    text-align: center;
+    color: #fff;
+}
